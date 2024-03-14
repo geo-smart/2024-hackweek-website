@@ -1,0 +1,3413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>GeoSmart Hackweek</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Application of Machine Learning in Hydrology and Cryosphere Science.">
+    <meta name="author" content="GeoSmart Hackweek">
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:600,700,800|Roboto:300,400,700&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome JS-->
+    <script defer src="assets/fontawesome/js/all.min.js"></script>
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <style>
+        .hero-carousel .carousel-item-1 {
+            background: url("https://geohackweek.github.io/assets/images/banner.jpg") no-repeat center center;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+<header id="header" class="header fixed-top">
+    <div class="branding">
+        <div class="container-fluid">
+            <nav class="main-nav navbar navbar-expand-lg">
+                <div class="site-logo">
+                    <a class="scrollto" href="#hero-block">
+                        <span class="logo-icon-text">
+                            UW eScience Hackweek
+                        </span>
+                    </a>
+                </div>
+
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navigation"
+                        aria-controls="navigation" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div id="navigation"
+                     class="navbar-collapse collapse  justify-content-lg-end me-lg-3">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link scrollto" href="#schedule">
+                                Schedule
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scrollto" href="#team">
+                                Team
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scrollto" href="#about-section">
+                                About
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scrollto" href="#sponsors-section">
+                                Sponsors
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!--//main-nav-->
+        </div>
+    </div>
+    <!--//branding-->
+</header>
+
+<div id="hero-block" class="hero-block">
+    <div id="hero-carousel" class="hero-carousel carousel slide carousel-fade"
+         data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item-1 carousel-item active">
+            </div>
+        </div>
+    </div>
+    <div class="hero-block-mask"></div>
+    <div class="container">
+        <div class="hero-text-block">
+            <h1 class="hero-heading mb-2">
+                GeoSmart Hackweek 2024
+            </h1>
+            <div class="hero-meta mb-3">
+                <i class="far fa-calendar-alt me-2"></i>
+                19 - 23 August
+                <i class="fas fa-map-marker-alt mx-2"></i>
+                Seattle, WA
+            </div>
+            <div class="hero-intro mb-4">Application of Machine Learning in Hydrology and Cryosphere Science.
+            </div>
+            <div class="hero-cta">
+                <a class="btn btn-primary btn-lg m-2"
+                   href="intro.html"
+                   target="_blank"
+                >
+                Event Jupyter Book
+                </a>
+            </div>
+        </div>
+        <!--//hero-text-block-->
+    </div>
+    <!--//container-->
+</div>
+<!--//hero-block-->
+
+<section id="countdown" class="section theme-bg-light pt-4 pb-3">
+    <div id="countdown-intro" class="event-countdown text-center">
+        <h4 class="countdown-intro mb-2 text-center">
+            2024 Event Starts In:
+        </h4>
+        <div id="countdown-box"
+             class="countdown-box"
+             data-start-date="19/2024">
+        </div>
+    </div>
+</section>
+<section id="schedule" class="schedule-section section">
+    <div class="container">
+        <h3 class="section-heading text-center mb-1">Schedule</h3>
+        <h4 class="text-center mb-5">
+            All times listed below are UTC -7 (Pacific Daylight Time).
+            You might want to consult this
+            <a href="https://www.timeanddate.com/time/map/" target="_blank">
+                Time Zone Map
+            </a>
+            to figure out times in your location. 
+            Tutorials will be located in 
+            <a href= "https://hfs.uw.edu/Meeting-Spaces/Alder-Auditorium" target="_blank"> Alder Auditorium.</a></h4>
+        <!-- Nav tabs -->
+        <ul class="schedule-nav nav nav-pills nav-fill" id="myTab"
+            role="tablist">
+            
+            <li class="nav-item me-2">
+                <a class="nav-link active"
+                   id="schedule-tab-1"
+                   data-bs-toggle="tab"
+                   data-bs-target="#schedule-1-content"
+                   href="#tab-1-content"
+                   role="tab"
+                   aria-controls="schedule-tab-1-content"
+                   aria-selected="true"
+                   data-schedule-day="Monday 23 October"
+                >
+                    <span class="heading">Day 1</span>
+                    <span class="meta">(Monday 23 October)</span>
+                </a>
+            </li>
+            
+            <li class="nav-item me-2">
+                <a class="nav-link "
+                   id="schedule-tab-2"
+                   data-bs-toggle="tab"
+                   data-bs-target="#schedule-2-content"
+                   href="#tab-2-content"
+                   role="tab"
+                   aria-controls="schedule-tab-2-content"
+                   aria-selected="false"
+                   data-schedule-day="Tuesday 24 October"
+                >
+                    <span class="heading">Day 2</span>
+                    <span class="meta">(Tuesday 24 October)</span>
+                </a>
+            </li>
+            
+            <li class="nav-item me-2">
+                <a class="nav-link "
+                   id="schedule-tab-3"
+                   data-bs-toggle="tab"
+                   data-bs-target="#schedule-3-content"
+                   href="#tab-3-content"
+                   role="tab"
+                   aria-controls="schedule-tab-3-content"
+                   aria-selected="false"
+                   data-schedule-day="Wednesday 25 October"
+                >
+                    <span class="heading">Day 3</span>
+                    <span class="meta">(Wednesday 25 October)</span>
+                </a>
+            </li>
+            
+            <li class="nav-item me-2">
+                <a class="nav-link "
+                   id="schedule-tab-4"
+                   data-bs-toggle="tab"
+                   data-bs-target="#schedule-4-content"
+                   href="#tab-4-content"
+                   role="tab"
+                   aria-controls="schedule-tab-4-content"
+                   aria-selected="false"
+                   data-schedule-day="Thursday 26 October"
+                >
+                    <span class="heading">Day 4</span>
+                    <span class="meta">(Thursday 26 October)</span>
+                </a>
+            </li>
+            
+            <li class="nav-item me-2">
+                <a class="nav-link "
+                   id="schedule-tab-5"
+                   data-bs-toggle="tab"
+                   data-bs-target="#schedule-5-content"
+                   href="#tab-5-content"
+                   role="tab"
+                   aria-controls="schedule-tab-5-content"
+                   aria-selected="false"
+                   data-schedule-day="Friday 27 October"
+                >
+                    <span class="heading">Day 5</span>
+                    <span class="meta">(Friday 27 October)</span>
+                </a>
+            </li>
+            
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="schedule-tab-content tab-content">
+            
+            <div class="tab-pane active"
+                 id="schedule-1-content"
+                 role="tabpanel"
+                 aria-labelledby="schedule-tab-1">
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            8:30 - 9:30
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            Intro and welcome
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            <p>Getting to know each other setting the stage for our work together.</p>
+                        </div>
+                        <div class="profile">
+                            <h6 class="mb-1 mt-2"> Tutorial Lead(s)</h6>
+                            <div class="name">
+                                <a class="theme-link"
+                                   href="#anthony--arendt-modal"
+                                   data-bs-toggle="modal"
+                                   data-bs-target="#anthony--arendt-modal">
+                                    Anthony Arendt
+                                </a>
+                            </div>
+                            <div class="name">
+                                <a class="theme-link"
+                                   href="#nicoleta--cristea-modal"
+                                   data-bs-toggle="modal"
+                                   data-bs-target="#nicoleta--cristea-modal">
+                                    Nicoleta Cristea
+                                </a>
+                            </div>
+                            <div class="name">
+                                <a class="theme-link"
+                                   href="#charley--haley-modal"
+                                   data-bs-toggle="modal"
+                                   data-bs-target="#charley--haley-modal">
+                                    Charley Haley
+                                </a>
+                            </div>
+                        </div></div>
+                </div>
+                
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            9:30 - 9:45
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            BREAK
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            
+                        </div></div>
+                </div>
+                
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            9:45 - 10:45
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            CryoCloud and Jupyter Notebooks
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            <p>Getting connected to our shared computational resources.</p>
+                        </div>
+                        <div class="profile">
+                            <h6 class="mb-1 mt-2"> Tutorial Lead(s)</h6>
+                            <div class="name">
+                                <a class="theme-link"
+                                   href="#tasha--snow-modal"
+                                   data-bs-toggle="modal"
+                                   data-bs-target="#tasha--snow-modal">
+                                    Tasha Snow
+                                </a>
+                            </div>
+                        </div></div>
+                </div>
+                
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            10:45 - 11:00
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            BREAK
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            
+                        </div></div>
+                </div>
+                
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            11:00 - 12:00
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            Introduction to machine learning
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            <p>An overview of machine learning and the primary stages of typical Machine Learning workflows including data preparation, model selection, training, and visualization.</p>
+                        </div>
+                        <div class="profile">
+                            <h6 class="mb-1 mt-2"> Tutorial Lead(s)</h6>
+                            <div class="name">
+                                <a class="theme-link"
+                                   href="#valentina--staneva-modal"
+                                   data-bs-toggle="modal"
+                                   data-bs-target="#valentina--staneva-modal">
+                                    Valentina Staneva
+                                </a>
+                            </div>
+                        </div></div>
+                </div>
+                
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            12:00 - 13:00
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            LUNCH
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            
+                        </div></div>
+                </div>
+                
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            13:00 - 15:00
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            Intro to Projects
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            <p>Overview of projects for this hackweek and how we will gather in small groups. Choosing our project team for the week.</p>
+                        </div>
+                        <div class="profile">
+                            <h6 class="mb-1 mt-2"> Tutorial Lead(s)</h6>
+                            <div class="name">
+                                <a class="theme-link"
+                                   href="#charley--haley-modal"
+                                   data-bs-toggle="modal"
+                                   data-bs-target="#charley--haley-modal">
+                                    Charley Haley
+                                </a>
+                            </div>
+                            <div class="name">
+                                <a class="theme-link"
+                                   href="#steven--pestana-modal"
+                                   data-bs-toggle="modal"
+                                   data-bs-target="#steven--pestana-modal">
+                                    Steven Pestana
+                                </a>
+                            </div>
+                        </div></div>
+                </div>
+                
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            15:00 - 16:00
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            Project Work
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            
+                        </div></div>
+                </div>
+                
+                <!--//item-->
+            </div>
+            <!--//tab-1-content-->
+            
+            <div class="tab-pane "
+                 id="schedule-2-content"
+                 role="tabpanel"
+                 aria-labelledby="schedule-tab-2">
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            8:30 - 9:00
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            Approaches to Working in Teams
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            <p>Discussion of best practices for collaborative work. Reflecting on the opportunities and challenges of small group work.</p>
+                        </div>
+                        <div class="profile">
+                            <h6 class="mb-1 mt-2"> Tutorial Lead(s)</h6>
+                            <div class="name">
+                                <a class="theme-link"
+                                   href="#naomi--alterman-modal"
+                                   data-bs-toggle="modal"
+                                   data-bs-target="#naomi--alterman-modal">
+                                    Naomi Alterman
+                                </a>
+                            </div>
+                        </div></div>
+                </div>
+                
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            9:00 - 10:00
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            ML methods for regression problems Part 1
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            <p>Introducing neural networks</p>
+                        </div>
+                        <div class="profile">
+                            <h6 class="mb-1 mt-2"> Tutorial Lead(s)</h6>
+                            <div class="name">
+                                <a class="theme-link"
+                                   href="#ryan--johnson-modal"
+                                   data-bs-toggle="modal"
+                                   data-bs-target="#ryan--johnson-modal">
+                                    Ryan Johnson
+                                </a>
+                            </div>
+                        </div></div>
+                </div>
+                
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            10:00 - 10:30
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            BREAK
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            
+                        </div></div>
+                </div>
+                
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            10:30 - 12:00
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            Project Work
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            
+                        </div></div>
+                </div>
+                
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            12:00 - 13:00
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            LUNCH
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            
+                        </div></div>
+                </div>
+                
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            13:00 - 14:00
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            ML methods for regression problems Part 2
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            <p>Introducing tree-based methods</p>
+                        </div>
+                        <div class="profile">
+                            <h6 class="mb-1 mt-2"> Tutorial Lead(s)</h6>
+                            <div class="name">
+                                <a class="theme-link"
+                                   href="#ibrahim--olalekan--alabi-modal"
+                                   data-bs-toggle="modal"
+                                   data-bs-target="#ibrahim--olalekan--alabi-modal">
+                                    Ibrahim Olalekan Alabi
+                                </a>
+                            </div>
+                        </div></div>
+                </div>
+                
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            14:00 - 16:00
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            Project Work
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            
+                        </div></div>
+                </div>
+                
+                <!--//item-->
+            </div>
+            <!--//tab-2-content-->
+            
+            <div class="tab-pane "
+                 id="schedule-3-content"
+                 role="tabpanel"
+                 aria-labelledby="schedule-tab-3">
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            8:30 - 9:45
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            ML Workflow Management -  GeoWEAVER
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            <p>Guidance on managing reproducible ML workflows.</p>
+                        </div>
+                        <div class="profile">
+                            <h6 class="mb-1 mt-2"> Tutorial Lead(s)</h6>
+                            <div class="name">
+                                <a class="theme-link"
+                                   href="#ziheng--sun-modal"
+                                   data-bs-toggle="modal"
+                                   data-bs-target="#ziheng--sun-modal">
+                                    Ziheng Sun
+                                </a>
+                            </div>
+                        </div></div>
+                </div>
+                
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            9:45 - 10:15
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            BREAK
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            
+                        </div></div>
+                </div>
+                
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            10:15 - 12:00
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            Project work
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            
+                        </div></div>
+                </div>
+                
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            12:00 - 13:00
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            LUNCH
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            
+                        </div></div>
+                </div>
+                
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            13:00 - 13:30
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            Group photo
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            
+                        </div></div>
+                </div>
+                
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            13:30 - 16:00
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            Project Work
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            
+                        </div></div>
+                </div>
+                
+                <!--//item-->
+            </div>
+            <!--//tab-3-content-->
+            
+            <div class="tab-pane "
+                 id="schedule-4-content"
+                 role="tabpanel"
+                 aria-labelledby="schedule-tab-4">
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            8:30 - 9:30
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            ML for classification
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            <p>Using ML methods for classification purposes.</p>
+                        </div>
+                        <div class="profile">
+                            <h6 class="mb-1 mt-2"> Tutorial Lead(s)</h6>
+                            <div class="name">Kehan Yang</div>
+                        </div></div>
+                </div>
+                
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            9:30 - 10:00
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            BREAK
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            
+                        </div></div>
+                </div>
+                
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            10:00 - 12:00
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            Project Work
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            
+                        </div></div>
+                </div>
+                
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            12:00 - 13:00
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            LUNCH
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            
+                        </div></div>
+                </div>
+                
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            13:00 - 15:00
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            Project Work
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            
+                        </div></div>
+                </div>
+                
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            15:00 - 16:00
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            Machine Learning Using Google Earth Engine
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            
+                        </div>
+                        <div class="profile">
+                            <h6 class="mb-1 mt-2"> Tutorial Lead(s)</h6>
+                            <div class="name">Steve Greenberg</div>
+                        </div></div>
+                </div>
+                
+                <!--//item-->
+            </div>
+            <!--//tab-4-content-->
+            
+            <div class="tab-pane "
+                 id="schedule-5-content"
+                 role="tabpanel"
+                 aria-labelledby="schedule-tab-5">
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            8:30 - 9:00
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            Ideas for Community Building and Open Science
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            <p>Setting a course for continued engagement with CUAHSI and the ML geoscience community of practice.</p>
+                        </div>
+                        <div class="profile">
+                            <h6 class="mb-1 mt-2"> Tutorial Lead(s)</h6>
+                            <div class="name">Tony Castronova</div>
+                            <div class="name">
+                                <a class="theme-link"
+                                   href="#irene--garousi-nejad-modal"
+                                   data-bs-toggle="modal"
+                                   data-bs-target="#irene--garousi-nejad-modal">
+                                    Irene Garousi-Nejad
+                                </a>
+                            </div>
+                            <div class="name">
+                                <a class="theme-link"
+                                   href="#nicoleta--cristea-modal"
+                                   data-bs-toggle="modal"
+                                   data-bs-target="#nicoleta--cristea-modal">
+                                    Nicoleta Cristea
+                                </a>
+                            </div>
+                        </div></div>
+                </div>
+                
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            9:00 - 10:00
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            Project wrap-up
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            
+                        </div></div>
+                </div>
+                
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            10:00 - 10:30
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            BREAK / FOCUS GROUP
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            
+                        </div></div>
+                </div>
+                
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            10:30 - 12:00
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            Sharing Project Outcomes Part 1
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            <p>An opportunity to show what we accomplished during the week.</p>
+                        </div>
+                        <div class="profile">
+                            <h6 class="mb-1 mt-2"> Tutorial Lead(s)</h6>
+                            <div class="name">
+                                <a class="theme-link"
+                                   href="#nicoleta--cristea-modal"
+                                   data-bs-toggle="modal"
+                                   data-bs-target="#nicoleta--cristea-modal">
+                                    Nicoleta Cristea
+                                </a>
+                            </div>
+                            <div class="name">
+                                <a class="theme-link"
+                                   href="#anthony--arendt-modal"
+                                   data-bs-toggle="modal"
+                                   data-bs-target="#anthony--arendt-modal">
+                                    Anthony Arendt
+                                </a>
+                            </div>
+                        </div></div>
+                </div>
+                
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            12:00 - 13:00
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            LUNCH
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            
+                        </div></div>
+                </div>
+                
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            13:00 - 13:30
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            Hackweek Survey
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            <p>Complete a survey providing us with feedback for improving our program.</p>
+                        </div>
+                        <div class="profile">
+                            <h6 class="mb-1 mt-2"> Tutorial Lead(s)</h6>
+                            <div class="name">
+                                <a class="theme-link"
+                                   href="#mark--welden-smith-modal"
+                                   data-bs-toggle="modal"
+                                   data-bs-target="#mark--welden-smith-modal">
+                                    Mark Welden-Smith
+                                </a>
+                            </div>
+                        </div></div>
+                </div>
+                
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            13:30 - 15:30
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            Sharing Project Outcomes Part 2
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            <p>An opportunity to show what we accomplished during the week.</p>
+                        </div>
+                        <div class="profile">
+                            <h6 class="mb-1 mt-2"> Tutorial Lead(s)</h6>
+                            <div class="name">
+                                <a class="theme-link"
+                                   href="#nicoleta--cristea-modal"
+                                   data-bs-toggle="modal"
+                                   data-bs-target="#nicoleta--cristea-modal">
+                                    Nicoleta Cristea
+                                </a>
+                            </div>
+                            <div class="name">
+                                <a class="theme-link"
+                                   href="#anthony--arendt-modal"
+                                   data-bs-toggle="modal"
+                                   data-bs-target="#anthony--arendt-modal">
+                                    Anthony Arendt
+                                </a>
+                            </div>
+                        </div></div>
+                </div>
+                
+                <div class="item item-talk">
+                    <div class="meta">
+                        <h4 class="time mb-3">
+                            15:30 - 16:00
+                        </h4>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="title mb-3">
+                            Closing
+                        </h3>
+
+                        
+
+                        <div class="desc">
+                            
+                        </div>
+                        <div class="profile">
+                            <h6 class="mb-1 mt-2"> Tutorial Lead(s)</h6>
+                            <div class="name">
+                                <a class="theme-link"
+                                   href="#nicoleta--cristea-modal"
+                                   data-bs-toggle="modal"
+                                   data-bs-target="#nicoleta--cristea-modal">
+                                    Nicoleta Cristea
+                                </a>
+                            </div>
+                        </div></div>
+                </div>
+                
+                <!--//item-->
+            </div>
+            <!--//tab-5-content-->
+            
+        </div>
+        <!--//schedule-tab-content-->
+    </div>
+    <!--//container-->
+</section>
+<!--//schedule-section-->
+
+
+<div class="container">
+    <hr>
+</div>
+<section id="team" class="team section">
+    <div class="container">
+        <h3 class="section-heading text-center mb-3">Meet the team</h3>
+        <div class="section-intro text-center single-col-max mx-auto mb-5">
+            The people on this page have helped organize the hackweek. You'll find a few specializations listed per person if you're wondering who to reach out to during the event!
+        </div>
+        <div class="row">
+            <div class="col-6 col-lg-3 mb-4">
+                <div class="card rounded-0">
+                    <a href="#nicoleta--cristea-modal" data-bs-toggle="modal"
+                       data-bs-target="#nicoleta--cristea-modal"><img
+                        src="https://avatars.githubusercontent.com/u/16614760?v=4"
+                        class="card-img-top rounded-0" alt=""></a>
+                    <div class="card-body">
+                        <h5 class="card-title mb-2">Nicoleta Cristea</h5>
+                        <div class="card-text mb-3">
+                            <div class="meta">Research Scientist</div>
+                            <div class="meta">
+                                <img
+                                    src="https://img.shields.io/badge/Hackweek-Lead Hackweek Organizer-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                    alt="Lead Hackweek Organizer badge"/>
+                            </div>
+                        </div>
+                        <!--//card-text-->
+                        <a href="#nicoleta--cristea-modal"
+                           data-bs-toggle="modal"
+                           data-bs-target="#nicoleta--cristea-modal">
+                            Read more &rarr;
+                        </a>
+                    </div>
+                    <!--//card-->
+                    <div class="card-footer text-muted">
+                        <ul class="social-list list-inline mb-0">
+                            <li class="list-inline-item">
+                                <a href="https://github.com/NCristea">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <!--//social-list-->
+                    </div>
+                </div>
+                <!--//card-->
+                <!-- Modal Speaker -->
+                <div class="modal modal-speaker modal-speaker-1"
+                     id="nicoleta--cristea-modal" tabindex="-1" role="dialog"
+                     aria-labelledby="nicoleta--cristea-ModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close"
+                                        data-bs-dismiss="modal"
+                                        aria-hidden="true">&times;
+                                </button>
+                                <h4 id="nicoleta--cristea-ModalLabel"
+                                    class="modal-title sr-only">
+                                    Nicoleta Cristea
+                                </h4>
+                            </div>
+                            <div class="modal-body p-0">
+                                <div class="theme-bg-light p-5">
+                                    <div class="row">
+                                        <div
+                                            class="col-12 col-md-auto text-center">
+                                            <img
+                                                class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+                                                src="https://avatars.githubusercontent.com/u/16614760?v=4"
+                                                alt=""/>
+                                        </div>
+
+                                        <div
+                                            class="col text-center text-md-start mx-auto">
+                                            <h2 class="name mb-2">
+                                                Nicoleta Cristea
+                                            </h2>
+                                            <div class="meta">
+                                                Research Scientist
+                                            </div>
+                                            <div class="meta mb-2">
+                                                eScience Institute
+                                            </div>
+                                            <ul class="social-list list-inline mb-0">
+                                                <li class="list-inline-item">
+                                                    <a href="https://github.com/NCristea">
+                                                        <i class="fab fa-github"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <!--//social-list-->
+                                        </div>
+                                        <!--//col-->
+                                    </div>
+                                    <!--//row-->
+                                </div>
+                                <div class="desc p-4 p-lg-5">
+                                    <div class="mb-2">
+                                        <img
+                                            src="https://img.shields.io/badge/Hackweek-Lead Hackweek Organizer-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                            alt="Lead Hackweek Organizer badge"
+                                        />
+                                    </div>
+                                    Nicoleta is a research hydrologist interested in using data science methods in research and educational activities. Current projects focus on studying snowy areas with machine learning and physics based models. She is also working on developing GeoSMART, an educational framework for machine learning adoption in the geosciences.
+                                    <div class="mt-1">
+                                        <h5>Interests / Expertise</h5>
+                                        <ul>
+                                            <li>hydrology, snow hydrology</li>
+                                            <li>remote sensing</li>
+                                            <li>geospatial data analysis</li>
+                                            <li>Python</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--//modal-body-->
+                        </div>
+                        <!--//modal-content-->
+                    </div>
+                    <!--//modal-dialog-->
+                </div>
+                <!--//modal-->
+            </div>
+            <!--//col-->
+            <div class="col-6 col-lg-3 mb-4">
+                <div class="card rounded-0">
+                    <a href="#anthony--arendt-modal" data-bs-toggle="modal"
+                       data-bs-target="#anthony--arendt-modal"><img
+                        src="https://avatars.githubusercontent.com/u/4993098?v=4?s=100"
+                        class="card-img-top rounded-0" alt=""></a>
+                    <div class="card-body">
+                        <h5 class="card-title mb-2">Anthony Arendt</h5>
+                        <div class="card-text mb-3">
+                            <div class="meta">Senior Data Science Fellow</div>
+                            <div class="meta">
+                                <img
+                                    src="https://img.shields.io/badge/Hackweek-Lead Hackweek Organizer-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                    alt="Lead Hackweek Organizer badge"/>
+                            </div>
+                        </div>
+                        <!--//card-text-->
+                        <a href="#anthony--arendt-modal"
+                           data-bs-toggle="modal"
+                           data-bs-target="#anthony--arendt-modal">
+                            Read more &rarr;
+                        </a>
+                    </div>
+                    <!--//card-->
+                    <div class="card-footer text-muted">
+                        <ul class="social-list list-inline mb-0">
+                            <li class="list-inline-item">
+                                <a href="https://github.com/aaarendt">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <!--//social-list-->
+                    </div>
+                </div>
+                <!--//card-->
+                <!-- Modal Speaker -->
+                <div class="modal modal-speaker modal-speaker-1"
+                     id="anthony--arendt-modal" tabindex="-1" role="dialog"
+                     aria-labelledby="anthony--arendt-ModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close"
+                                        data-bs-dismiss="modal"
+                                        aria-hidden="true">&times;
+                                </button>
+                                <h4 id="anthony--arendt-ModalLabel"
+                                    class="modal-title sr-only">
+                                    Anthony Arendt
+                                </h4>
+                            </div>
+                            <div class="modal-body p-0">
+                                <div class="theme-bg-light p-5">
+                                    <div class="row">
+                                        <div
+                                            class="col-12 col-md-auto text-center">
+                                            <img
+                                                class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+                                                src="https://avatars.githubusercontent.com/u/4993098?v=4?s=100"
+                                                alt=""/>
+                                        </div>
+
+                                        <div
+                                            class="col text-center text-md-start mx-auto">
+                                            <h2 class="name mb-2">
+                                                Anthony Arendt
+                                            </h2>
+                                            <div class="meta">
+                                                Senior Data Science Fellow
+                                            </div>
+                                            <div class="meta mb-2">
+                                                eScience Institute &amp; Applied Physics Laboratory
+                                            </div>
+                                            <ul class="social-list list-inline mb-0">
+                                                <li class="list-inline-item">
+                                                    <a href="https://github.com/aaarendt">
+                                                        <i class="fab fa-github"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <!--//social-list-->
+                                        </div>
+                                        <!--//col-->
+                                    </div>
+                                    <!--//row-->
+                                </div>
+                                <div class="desc p-4 p-lg-5">
+                                    <div class="mb-2">
+                                        <img
+                                            src="https://img.shields.io/badge/Hackweek-Lead Hackweek Organizer-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                            alt="Lead Hackweek Organizer badge"
+                                        />
+                                    </div>
+                                    Anthony is leading the eScience Institute's Hackweek-as-a-Service program. He is an advocate for open, inclusive and collaborative science. He has experience teaching GIS and has been the lead organizer for multiple earth-science themed hackweeks. His background is in cryospheric science and remote sensing.
+                                    <div class="mt-1">
+                                        <h5>Interests / Expertise</h5>
+                                        <ul>
+                                            <li>open science</li>
+                                            <li>community building</li>
+                                            <li>GIS</li>
+                                            <li>SQL</li>
+                                            <li>glaciers</li>
+                                            <li>Python</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--//modal-body-->
+                        </div>
+                        <!--//modal-content-->
+                    </div>
+                    <!--//modal-dialog-->
+                </div>
+                <!--//modal-->
+            </div>
+            <!--//col-->
+            <div class="col-6 col-lg-3 mb-4">
+                <div class="card rounded-0">
+                    <a href="#mark--welden-smith-modal" data-bs-toggle="modal"
+                       data-bs-target="#mark--welden-smith-modal"><img
+                        src="https://avatars.githubusercontent.com/u/137837140"
+                        class="card-img-top rounded-0" alt=""></a>
+                    <div class="card-body">
+                        <h5 class="card-title mb-2">Mark Welden-Smith</h5>
+                        <div class="card-text mb-3">
+                            <div class="meta">Program Manager</div>
+                            <div class="meta">
+                                <img
+                                    src="https://img.shields.io/badge/Hackweek-Program Manager-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                    alt="Program Manager badge"/>
+                            </div>
+                        </div>
+                        <!--//card-text-->
+                        <a href="#mark--welden-smith-modal"
+                           data-bs-toggle="modal"
+                           data-bs-target="#mark--welden-smith-modal">
+                            Read more &rarr;
+                        </a>
+                    </div>
+                    <!--//card-->
+                    <div class="card-footer text-muted">
+                        <ul class="social-list list-inline mb-0">
+                            <li class="list-inline-item">
+                                <a href="https://github.com/markweldensmith">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <!--//social-list-->
+                    </div>
+                </div>
+                <!--//card-->
+                <!-- Modal Speaker -->
+                <div class="modal modal-speaker modal-speaker-1"
+                     id="mark--welden-smith-modal" tabindex="-1" role="dialog"
+                     aria-labelledby="mark--welden-smith-ModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close"
+                                        data-bs-dismiss="modal"
+                                        aria-hidden="true">&times;
+                                </button>
+                                <h4 id="mark--welden-smith-ModalLabel"
+                                    class="modal-title sr-only">
+                                    Mark Welden-Smith
+                                </h4>
+                            </div>
+                            <div class="modal-body p-0">
+                                <div class="theme-bg-light p-5">
+                                    <div class="row">
+                                        <div
+                                            class="col-12 col-md-auto text-center">
+                                            <img
+                                                class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+                                                src="https://avatars.githubusercontent.com/u/137837140"
+                                                alt=""/>
+                                        </div>
+
+                                        <div
+                                            class="col text-center text-md-start mx-auto">
+                                            <h2 class="name mb-2">
+                                                Mark Welden-Smith
+                                            </h2>
+                                            <div class="meta">
+                                                Program Manager
+                                            </div>
+                                            <div class="meta mb-2">
+                                                eScience Institute
+                                            </div>
+                                            <ul class="social-list list-inline mb-0">
+                                                <li class="list-inline-item">
+                                                    <a href="https://github.com/markweldensmith">
+                                                        <i class="fab fa-github"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <!--//social-list-->
+                                        </div>
+                                        <!--//col-->
+                                    </div>
+                                    <!--//row-->
+                                </div>
+                                <div class="desc p-4 p-lg-5">
+                                    <div class="mb-2">
+                                        <img
+                                            src="https://img.shields.io/badge/Hackweek-Program Manager-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                            alt="Program Manager badge"
+                                        />
+                                    </div>
+                                    Mark is the Program Manager for Community Engagement at the eScience Institute. His career has been spent with higher education and nonprofit organizations, most recently at the University of California, Santa Cruz as the Associate Director of Marketing, Events, and Technology for the Office of Undergraduate Admissions. Mark graduated from Southern Cross University (1999) with a BA in Communications and Media Production.
+                                    <div class="mt-1">
+                                        <h5>Interests / Expertise</h5>
+                                        <ul>
+                                            <li>Project management</li>
+                                            <li>Community building</li>
+                                            <li>Event planning</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--//modal-body-->
+                        </div>
+                        <!--//modal-content-->
+                    </div>
+                    <!--//modal-dialog-->
+                </div>
+                <!--//modal-->
+            </div>
+            <!--//col-->
+            <div class="col-6 col-lg-3 mb-4">
+                <div class="card rounded-0">
+                    <a href="#charley--haley-modal" data-bs-toggle="modal"
+                       data-bs-target="#charley--haley-modal"><img
+                        src="https://avatars.githubusercontent.com/u/70242677?v=4"
+                        class="card-img-top rounded-0" alt=""></a>
+                    <div class="card-body">
+                        <h5 class="card-title mb-2">Charley Haley</h5>
+                        <div class="card-text mb-3">
+                            <div class="meta">Participant Interaction and Collaboration Architect</div>
+                            <div class="meta">
+                                <img
+                                    src="https://img.shields.io/badge/Hackweek-Lead Community Building-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                    alt="Lead Community Building badge"/>
+                            </div>
+                        </div>
+                        <!--//card-text-->
+                        <a href="#charley--haley-modal"
+                           data-bs-toggle="modal"
+                           data-bs-target="#charley--haley-modal">
+                            Read more &rarr;
+                        </a>
+                    </div>
+                    <!--//card-->
+                </div>
+                <!--//card-->
+                <!-- Modal Speaker -->
+                <div class="modal modal-speaker modal-speaker-1"
+                     id="charley--haley-modal" tabindex="-1" role="dialog"
+                     aria-labelledby="charley--haley-ModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close"
+                                        data-bs-dismiss="modal"
+                                        aria-hidden="true">&times;
+                                </button>
+                                <h4 id="charley--haley-ModalLabel"
+                                    class="modal-title sr-only">
+                                    Charley Haley
+                                </h4>
+                            </div>
+                            <div class="modal-body p-0">
+                                <div class="theme-bg-light p-5">
+                                    <div class="row">
+                                        <div
+                                            class="col-12 col-md-auto text-center">
+                                            <img
+                                                class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+                                                src="https://avatars.githubusercontent.com/u/70242677?v=4"
+                                                alt=""/>
+                                        </div>
+
+                                        <div
+                                            class="col text-center text-md-start mx-auto">
+                                            <h2 class="name mb-2">
+                                                Charley Haley
+                                            </h2>
+                                            <div class="meta">
+                                                Participant Interaction and Collaboration Architect
+                                            </div>
+                                            <div class="meta mb-2">
+                                                Collaboration Architect at eScience Institute &amp; WayForagers
+                                            </div>
+                                            <!--//social-list-->
+                                        </div>
+                                        <!--//col-->
+                                    </div>
+                                    <!--//row-->
+                                </div>
+                                <div class="desc p-4 p-lg-5">
+                                    <div class="mb-2">
+                                        <img
+                                            src="https://img.shields.io/badge/Hackweek-Lead Community Building-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                            alt="Lead Community Building badge"
+                                        />
+                                    </div>
+                                    I am passionate about all things that are in service to building collaborations, especially interdisciplinary ones. I love building frameworks that make it easier for science groups (research, applied, data, stakeholders) to understand each other and how they might fit together to address the larger, more complex science challenges that are impossible to touch without a community of collaborators representing all angles & all perspectives.
+                                    <div class="mt-1">
+                                        <h5>Interests / Expertise</h5>
+                                        <ul>
+                                            <li>Participatory Design and facilitation</li>
+                                            <li>Designing communication frameworks that supports all voices co-shaping the way forward</li>
+                                            <li>Community development</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--//modal-body-->
+                        </div>
+                        <!--//modal-content-->
+                    </div>
+                    <!--//modal-dialog-->
+                </div>
+                <!--//modal-->
+            </div>
+            <!--//col-->
+            <div class="col-6 col-lg-3 mb-4">
+                <div class="card rounded-0">
+                    <a href="#scott--henderson-modal" data-bs-toggle="modal"
+                       data-bs-target="#scott--henderson-modal"><img
+                        src="https://avatars2.githubusercontent.com/u/3924836?s=460&v=4"
+                        class="card-img-top rounded-0" alt=""></a>
+                    <div class="card-body">
+                        <h5 class="card-title mb-2">Scott Henderson</h5>
+                        <div class="card-text mb-3">
+                            <div class="meta">Research Scientist</div>
+                            <div class="meta">
+                                <img
+                                    src="https://img.shields.io/badge/Hackweek-Lead of Technology-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                    alt="Lead of Technology badge"/>
+                                <img
+                                    src="https://img.shields.io/badge/Hackweek-Tutorial Lead-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                    alt="Tutorial Lead badge"/>
+                            </div>
+                        </div>
+                        <!--//card-text-->
+                        <a href="#scott--henderson-modal"
+                           data-bs-toggle="modal"
+                           data-bs-target="#scott--henderson-modal">
+                            Read more &rarr;
+                        </a>
+                    </div>
+                    <!--//card-->
+                    <div class="card-footer text-muted">
+                        <ul class="social-list list-inline mb-0">
+                            <li class="list-inline-item">
+                                <a href="https://github.com/scottyhq">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <!--//social-list-->
+                    </div>
+                </div>
+                <!--//card-->
+                <!-- Modal Speaker -->
+                <div class="modal modal-speaker modal-speaker-1"
+                     id="scott--henderson-modal" tabindex="-1" role="dialog"
+                     aria-labelledby="scott--henderson-ModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close"
+                                        data-bs-dismiss="modal"
+                                        aria-hidden="true">&times;
+                                </button>
+                                <h4 id="scott--henderson-ModalLabel"
+                                    class="modal-title sr-only">
+                                    Scott Henderson
+                                </h4>
+                            </div>
+                            <div class="modal-body p-0">
+                                <div class="theme-bg-light p-5">
+                                    <div class="row">
+                                        <div
+                                            class="col-12 col-md-auto text-center">
+                                            <img
+                                                class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+                                                src="https://avatars2.githubusercontent.com/u/3924836?s=460&v=4"
+                                                alt=""/>
+                                        </div>
+
+                                        <div
+                                            class="col text-center text-md-start mx-auto">
+                                            <h2 class="name mb-2">
+                                                Scott Henderson
+                                            </h2>
+                                            <div class="meta">
+                                                Research Scientist
+                                            </div>
+                                            <div class="meta mb-2">
+                                                eScience Institute &amp; UW Earth and Space Sciences Department
+                                            </div>
+                                            <ul class="social-list list-inline mb-0">
+                                                <li class="list-inline-item">
+                                                    <a href="https://github.com/scottyhq">
+                                                        <i class="fab fa-github"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <!--//social-list-->
+                                        </div>
+                                        <!--//col-->
+                                    </div>
+                                    <!--//row-->
+                                </div>
+                                <div class="desc p-4 p-lg-5">
+                                    <div class="mb-2">
+                                        <img
+                                            src="https://img.shields.io/badge/Hackweek-Lead of Technology-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                            alt="Lead of Technology badge"
+                                        />
+                                        <img
+                                            src="https://img.shields.io/badge/Hackweek-Tutorial Lead-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                            alt="Tutorial Lead badge"
+                                        />
+                                    </div>
+                                    Scott is a research scientist and data science fellow at the University of Washington. His research is focused on applications of synthetic aperture radar to understand geophysical processes. Scott is excited about the potential for open source software and Cloud computing to enable more open and reproducible science.
+                                    <div class="mt-1">
+                                        <h5>Interests / Expertise</h5>
+                                        <ul>
+                                            <li>InSAR</li>
+                                            <li>Jupyter</li>
+                                            <li>Python</li>
+                                            <li>Cloud computing</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--//modal-body-->
+                        </div>
+                        <!--//modal-content-->
+                    </div>
+                    <!--//modal-dialog-->
+                </div>
+                <!--//modal-->
+            </div>
+            <!--//col-->
+            <div class="col-6 col-lg-3 mb-4">
+                <div class="card rounded-0">
+                    <a href="#don--setiawan-modal" data-bs-toggle="modal"
+                       data-bs-target="#don--setiawan-modal"><img
+                        src="https://avatars.githubusercontent.com/u/17802172?v=4"
+                        class="card-img-top rounded-0" alt=""></a>
+                    <div class="card-body">
+                        <h5 class="card-title mb-2">Don Setiawan</h5>
+                        <div class="card-text mb-3">
+                            <div class="meta">Research Software Engineer</div>
+                            <div class="meta">
+                                <img
+                                    src="https://img.shields.io/badge/Hackweek-Technology Specialist-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                    alt="Technology Specialist badge"/>
+                            </div>
+                        </div>
+                        <!--//card-text-->
+                        <a href="#don--setiawan-modal"
+                           data-bs-toggle="modal"
+                           data-bs-target="#don--setiawan-modal">
+                            Read more &rarr;
+                        </a>
+                    </div>
+                    <!--//card-->
+                    <div class="card-footer text-muted">
+                        <ul class="social-list list-inline mb-0">
+                            <li class="list-inline-item">
+                                <a href="https://github.com/lsetiawan">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <!--//social-list-->
+                    </div>
+                </div>
+                <!--//card-->
+                <!-- Modal Speaker -->
+                <div class="modal modal-speaker modal-speaker-1"
+                     id="don--setiawan-modal" tabindex="-1" role="dialog"
+                     aria-labelledby="don--setiawan-ModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close"
+                                        data-bs-dismiss="modal"
+                                        aria-hidden="true">&times;
+                                </button>
+                                <h4 id="don--setiawan-ModalLabel"
+                                    class="modal-title sr-only">
+                                    Don Setiawan
+                                </h4>
+                            </div>
+                            <div class="modal-body p-0">
+                                <div class="theme-bg-light p-5">
+                                    <div class="row">
+                                        <div
+                                            class="col-12 col-md-auto text-center">
+                                            <img
+                                                class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+                                                src="https://avatars.githubusercontent.com/u/17802172?v=4"
+                                                alt=""/>
+                                        </div>
+
+                                        <div
+                                            class="col text-center text-md-start mx-auto">
+                                            <h2 class="name mb-2">
+                                                Don Setiawan
+                                            </h2>
+                                            <div class="meta">
+                                                Research Software Engineer
+                                            </div>
+                                            <div class="meta mb-2">
+                                                School of Oceanography &amp; University of Washington
+                                            </div>
+                                            <ul class="social-list list-inline mb-0">
+                                                <li class="list-inline-item">
+                                                    <a href="https://github.com/lsetiawan">
+                                                        <i class="fab fa-github"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <!--//social-list-->
+                                        </div>
+                                        <!--//col-->
+                                    </div>
+                                    <!--//row-->
+                                </div>
+                                <div class="desc p-4 p-lg-5">
+                                    <div class="mb-2">
+                                        <img
+                                            src="https://img.shields.io/badge/Hackweek-Technology Specialist-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                            alt="Technology Specialist badge"
+                                        />
+                                    </div>
+                                    I am a Research Software Engineer at the University of Washington with a strong focus in designing, developing, and maintaining scientific data analysis systems. I am a contributor to various open source software. I learning new technologies and apply them in my work.
+                                    <div class="mt-1">
+                                        <h5>Interests / Expertise</h5>
+                                        <ul>
+                                            <li>Geospatial Information Systems (GIS)</li>
+                                            <li>Data Engineering / Data Science</li>
+                                            <li>Software Engineering</li>
+                                            <li>Web Development</li>
+                                            <li>DevOps/GitOps</li>
+                                            <li>Oceanography</li>
+                                            <li>Python</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--//modal-body-->
+                        </div>
+                        <!--//modal-content-->
+                    </div>
+                    <!--//modal-dialog-->
+                </div>
+                <!--//modal-->
+            </div>
+            <!--//col-->
+            <div class="col-6 col-lg-3 mb-4">
+                <div class="card rounded-0">
+                    <a href="#naomi--alterman-modal" data-bs-toggle="modal"
+                       data-bs-target="#naomi--alterman-modal"><img
+                        src="https://escience.washington.edu/wp-content/uploads/2021/01/nlalterman.jpg"
+                        class="card-img-top rounded-0" alt=""></a>
+                    <div class="card-body">
+                        <h5 class="card-title mb-2">Naomi Alterman</h5>
+                        <div class="card-text mb-3">
+                            <div class="meta">Education Consultant</div>
+                            <div class="meta">
+                                <img
+                                    src="https://img.shields.io/badge/Hackweek-Education Consultant-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                    alt="Education Consultant badge"/>
+                            </div>
+                        </div>
+                        <!--//card-text-->
+                        <a href="#naomi--alterman-modal"
+                           data-bs-toggle="modal"
+                           data-bs-target="#naomi--alterman-modal">
+                            Read more &rarr;
+                        </a>
+                    </div>
+                    <!--//card-->
+                    <div class="card-footer text-muted">
+                        <ul class="social-list list-inline mb-0">
+                            <li class="list-inline-item">
+                                <a href="https://github.com/naclomi">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <!--//social-list-->
+                    </div>
+                </div>
+                <!--//card-->
+                <!-- Modal Speaker -->
+                <div class="modal modal-speaker modal-speaker-1"
+                     id="naomi--alterman-modal" tabindex="-1" role="dialog"
+                     aria-labelledby="naomi--alterman-ModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close"
+                                        data-bs-dismiss="modal"
+                                        aria-hidden="true">&times;
+                                </button>
+                                <h4 id="naomi--alterman-ModalLabel"
+                                    class="modal-title sr-only">
+                                    Naomi Alterman
+                                </h4>
+                            </div>
+                            <div class="modal-body p-0">
+                                <div class="theme-bg-light p-5">
+                                    <div class="row">
+                                        <div
+                                            class="col-12 col-md-auto text-center">
+                                            <img
+                                                class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+                                                src="https://escience.washington.edu/wp-content/uploads/2021/01/nlalterman.jpg"
+                                                alt=""/>
+                                        </div>
+
+                                        <div
+                                            class="col text-center text-md-start mx-auto">
+                                            <h2 class="name mb-2">
+                                                Naomi Alterman
+                                            </h2>
+                                            <div class="meta">
+                                                Education Consultant
+                                            </div>
+                                            <div class="meta mb-2">
+                                                eScience Institute
+                                            </div>
+                                            <ul class="social-list list-inline mb-0">
+                                                <li class="list-inline-item">
+                                                    <a href="https://github.com/naclomi">
+                                                        <i class="fab fa-github"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <!--//social-list-->
+                                        </div>
+                                        <!--//col-->
+                                    </div>
+                                    <!--//row-->
+                                </div>
+                                <div class="desc p-4 p-lg-5">
+                                    <div class="mb-2">
+                                        <img
+                                            src="https://img.shields.io/badge/Hackweek-Education Consultant-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                            alt="Education Consultant badge"
+                                        />
+                                    </div>
+                                    Naomi is a Technical Education Specialist at the University of Washington's eScience Institute. She has a background in electrical engineering and computer science, but loves spending her time working on the interface between complex domains of information, be they software, hardware, or people.
+                                    <div class="mt-1">
+                                        <h5>Interests / Expertise</h5>
+                                        <ul>
+                                            <li>Education and pedagogy</li>
+                                            <li>Technical mentorship</li>
+                                            <li>Python</li>
+                                            <li>git</li>
+                                            <li>Cloud computing</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--//modal-body-->
+                        </div>
+                        <!--//modal-content-->
+                    </div>
+                    <!--//modal-dialog-->
+                </div>
+                <!--//modal-->
+            </div>
+            <!--//col-->
+            <div class="col-6 col-lg-3 mb-4">
+                <div class="card rounded-0">
+                    <a href="#irene--garousi-nejad-modal" data-bs-toggle="modal"
+                       data-bs-target="#irene--garousi-nejad-modal"><img
+                        src="https://avatars.githubusercontent.com/u/21225656?v=4"
+                        class="card-img-top rounded-0" alt=""></a>
+                    <div class="card-body">
+                        <h5 class="card-title mb-2">Irene Garousi-Nejad</h5>
+                        <div class="card-text mb-3">
+                            <div class="meta">Research Scientist</div>
+                            <div class="meta">
+                                <img
+                                    src="https://img.shields.io/badge/Hackweek-Hackweek Helper-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                    alt="Hackweek Helper badge"/>
+                                <img
+                                    src="https://img.shields.io/badge/Hackweek-Project Consultant-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                    alt="Project Consultant badge"/>
+                            </div>
+                        </div>
+                        <!--//card-text-->
+                        <a href="#irene--garousi-nejad-modal"
+                           data-bs-toggle="modal"
+                           data-bs-target="#irene--garousi-nejad-modal">
+                            Read more &rarr;
+                        </a>
+                    </div>
+                    <!--//card-->
+                    <div class="card-footer text-muted">
+                        <ul class="social-list list-inline mb-0">
+                            <li class="list-inline-item">
+                                <a href="https://github.com/igarousi">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <!--//social-list-->
+                    </div>
+                </div>
+                <!--//card-->
+                <!-- Modal Speaker -->
+                <div class="modal modal-speaker modal-speaker-1"
+                     id="irene--garousi-nejad-modal" tabindex="-1" role="dialog"
+                     aria-labelledby="irene--garousi-nejad-ModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close"
+                                        data-bs-dismiss="modal"
+                                        aria-hidden="true">&times;
+                                </button>
+                                <h4 id="irene--garousi-nejad-ModalLabel"
+                                    class="modal-title sr-only">
+                                    Irene Garousi-Nejad
+                                </h4>
+                            </div>
+                            <div class="modal-body p-0">
+                                <div class="theme-bg-light p-5">
+                                    <div class="row">
+                                        <div
+                                            class="col-12 col-md-auto text-center">
+                                            <img
+                                                class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+                                                src="https://avatars.githubusercontent.com/u/21225656?v=4"
+                                                alt=""/>
+                                        </div>
+
+                                        <div
+                                            class="col text-center text-md-start mx-auto">
+                                            <h2 class="name mb-2">
+                                                Irene Garousi-Nejad
+                                            </h2>
+                                            <div class="meta">
+                                                Research Scientist
+                                            </div>
+                                            <div class="meta mb-2">
+                                                Consortium of Universities for the Advancement of Hydrologic Science, Inc. (CUAHSI)
+                                            </div>
+                                            <ul class="social-list list-inline mb-0">
+                                                <li class="list-inline-item">
+                                                    <a href="https://github.com/igarousi">
+                                                        <i class="fab fa-github"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <!--//social-list-->
+                                        </div>
+                                        <!--//col-->
+                                    </div>
+                                    <!--//row-->
+                                </div>
+                                <div class="desc p-4 p-lg-5">
+                                    <div class="mb-2">
+                                        <img
+                                            src="https://img.shields.io/badge/Hackweek-Hackweek Helper-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                            alt="Hackweek Helper badge"
+                                        />
+                                        <img
+                                            src="https://img.shields.io/badge/Hackweek-Project Consultant-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                            alt="Project Consultant badge"
+                                        />
+                                    </div>
+                                    Irene supports CUAHSI's water science research and education activities and extends CUAHSI's  capabilities in hydrologic modeling, geospatial climate and water data analysis, and cloud computing.   She values open science and open data, recognizing their pivotal role in fostering transparency, collaboration, and inclusivity within the scientific community. 
+                                    <div class="mt-1">
+                                        <h5>Interests / Expertise</h5>
+                                        <ul>
+                                            <li>Physical Hydrology</li>
+                                            <li>Hydroinformatics</li>
+                                            <li>Snow Hydrology</li>
+                                            <li>Cloud Computing</li>
+                                            <li>Python, git</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--//modal-body-->
+                        </div>
+                        <!--//modal-content-->
+                    </div>
+                    <!--//modal-dialog-->
+                </div>
+                <!--//modal-->
+            </div>
+            <!--//col-->
+            <div class="col-6 col-lg-3 mb-4">
+                <div class="card rounded-0">
+                    <a href="#aji--john-modal" data-bs-toggle="modal"
+                       data-bs-target="#aji--john-modal"><img
+                        src="https://avatars.githubusercontent.com/u/602875?v=4"
+                        class="card-img-top rounded-0" alt=""></a>
+                    <div class="card-body">
+                        <h5 class="card-title mb-2">Aji John</h5>
+                        <div class="card-text mb-3">
+                            <div class="meta">Postdoc</div>
+                            <div class="meta">
+                                <img
+                                    src="https://img.shields.io/badge/Hackweek-Tutorial Lead-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                    alt="Tutorial Lead badge"/>
+                            </div>
+                        </div>
+                        <!--//card-text-->
+                        <a href="#aji--john-modal"
+                           data-bs-toggle="modal"
+                           data-bs-target="#aji--john-modal">
+                            Read more &rarr;
+                        </a>
+                    </div>
+                    <!--//card-->
+                    <div class="card-footer text-muted">
+                        <ul class="social-list list-inline mb-0">
+                            <li class="list-inline-item">
+                                <a href="https://github.com/ajijohn">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <!--//social-list-->
+                    </div>
+                </div>
+                <!--//card-->
+                <!-- Modal Speaker -->
+                <div class="modal modal-speaker modal-speaker-1"
+                     id="aji--john-modal" tabindex="-1" role="dialog"
+                     aria-labelledby="aji--john-ModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close"
+                                        data-bs-dismiss="modal"
+                                        aria-hidden="true">&times;
+                                </button>
+                                <h4 id="aji--john-ModalLabel"
+                                    class="modal-title sr-only">
+                                    Aji John
+                                </h4>
+                            </div>
+                            <div class="modal-body p-0">
+                                <div class="theme-bg-light p-5">
+                                    <div class="row">
+                                        <div
+                                            class="col-12 col-md-auto text-center">
+                                            <img
+                                                class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+                                                src="https://avatars.githubusercontent.com/u/602875?v=4"
+                                                alt=""/>
+                                        </div>
+
+                                        <div
+                                            class="col text-center text-md-start mx-auto">
+                                            <h2 class="name mb-2">
+                                                Aji John
+                                            </h2>
+                                            <div class="meta">
+                                                Postdoc
+                                            </div>
+                                            <div class="meta mb-2">
+                                                University of Washington
+                                            </div>
+                                            <ul class="social-list list-inline mb-0">
+                                                <li class="list-inline-item">
+                                                    <a href="https://github.com/ajijohn">
+                                                        <i class="fab fa-github"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <!--//social-list-->
+                                        </div>
+                                        <!--//col-->
+                                    </div>
+                                    <!--//row-->
+                                </div>
+                                <div class="desc p-4 p-lg-5">
+                                    <div class="mb-2">
+                                        <img
+                                            src="https://img.shields.io/badge/Hackweek-Tutorial Lead-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                            alt="Tutorial Lead badge"
+                                        />
+                                    </div>
+                                    Aji is a Postdoc in SEFS/CEE at University of Washington. Aji explores microclimatic patterns in forest understories, studies phenology of wildflower meadows using high-resolution satellite imagery and mapping of snowcover (driver of flowering). He also interested in developing workflow solutions to analyze large datasets in Cloud.
+                                    <div class="mt-1">
+                                        <h5>Interests / Expertise</h5>
+                                        <ul>
+                                            <li>Software Engineering</li>
+                                            <li>Python/R</li>
+                                            <li>Cloud</li>
+                                            <li>Modeling</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--//modal-body-->
+                        </div>
+                        <!--//modal-content-->
+                    </div>
+                    <!--//modal-dialog-->
+                </div>
+                <!--//modal-->
+            </div>
+            <!--//col-->
+            <div class="col-6 col-lg-3 mb-4">
+                <div class="card rounded-0">
+                    <a href="#friedrich--knuth-modal" data-bs-toggle="modal"
+                       data-bs-target="#friedrich--knuth-modal"><img
+                        src="https://staff.washington.edu/knuth/knuth_460x460.jpg"
+                        class="card-img-top rounded-0" alt=""></a>
+                    <div class="card-body">
+                        <h5 class="card-title mb-2">Friedrich Knuth</h5>
+                        <div class="card-text mb-3">
+                            <div class="meta">PhD Student</div>
+                            <div class="meta">
+                                <img
+                                    src="https://img.shields.io/badge/Hackweek-Hackweek Organizer-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                    alt="Hackweek Organizer badge"/>
+                            </div>
+                        </div>
+                        <!--//card-text-->
+                        <a href="#friedrich--knuth-modal"
+                           data-bs-toggle="modal"
+                           data-bs-target="#friedrich--knuth-modal">
+                            Read more &rarr;
+                        </a>
+                    </div>
+                    <!--//card-->
+                    <div class="card-footer text-muted">
+                        <ul class="social-list list-inline mb-0">
+                            <li class="list-inline-item">
+                                <a href="https://github.com/friedrichknuth">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <!--//social-list-->
+                    </div>
+                </div>
+                <!--//card-->
+                <!-- Modal Speaker -->
+                <div class="modal modal-speaker modal-speaker-1"
+                     id="friedrich--knuth-modal" tabindex="-1" role="dialog"
+                     aria-labelledby="friedrich--knuth-ModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close"
+                                        data-bs-dismiss="modal"
+                                        aria-hidden="true">&times;
+                                </button>
+                                <h4 id="friedrich--knuth-ModalLabel"
+                                    class="modal-title sr-only">
+                                    Friedrich Knuth
+                                </h4>
+                            </div>
+                            <div class="modal-body p-0">
+                                <div class="theme-bg-light p-5">
+                                    <div class="row">
+                                        <div
+                                            class="col-12 col-md-auto text-center">
+                                            <img
+                                                class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+                                                src="https://staff.washington.edu/knuth/knuth_460x460.jpg"
+                                                alt=""/>
+                                        </div>
+
+                                        <div
+                                            class="col text-center text-md-start mx-auto">
+                                            <h2 class="name mb-2">
+                                                Friedrich Knuth
+                                            </h2>
+                                            <div class="meta">
+                                                PhD Student
+                                            </div>
+                                            <div class="meta mb-2">
+                                                University of Washington
+                                            </div>
+                                            <ul class="social-list list-inline mb-0">
+                                                <li class="list-inline-item">
+                                                    <a href="https://github.com/friedrichknuth">
+                                                        <i class="fab fa-github"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <!--//social-list-->
+                                        </div>
+                                        <!--//col-->
+                                    </div>
+                                    <!--//row-->
+                                </div>
+                                <div class="desc p-4 p-lg-5">
+                                    <div class="mb-2">
+                                        <img
+                                            src="https://img.shields.io/badge/Hackweek-Hackweek Organizer-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                            alt="Hackweek Organizer badge"
+                                        />
+                                    </div>
+                                    Friedrich Knuth is a PhD student in the UW Hydrology and Hydrodynamics Program.  His current research focuses on reconstructing the 3D evolution of mountain glaciers in response to climate forcing,  using historical aerial photography and satellite imagery collected over the past century.
+                                    <div class="mt-1">
+                                        <h5>Interests / Expertise</h5>
+                                        <ul>
+                                            <li>Software Development, Python</li>
+                                            <li>GDAL, xarray, git</li>
+                                            <li>Photogrammetry, Gaussian Processes</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--//modal-body-->
+                        </div>
+                        <!--//modal-content-->
+                    </div>
+                    <!--//modal-dialog-->
+                </div>
+                <!--//modal-->
+            </div>
+            <!--//col-->
+            <div class="col-6 col-lg-3 mb-4">
+                <div class="card rounded-0">
+                    <a href="#steven--pestana-modal" data-bs-toggle="modal"
+                       data-bs-target="#steven--pestana-modal"><img
+                        src="https://avatars.githubusercontent.com/u/650301?v=4"
+                        class="card-img-top rounded-0" alt=""></a>
+                    <div class="card-body">
+                        <h5 class="card-title mb-2">Steven Pestana</h5>
+                        <div class="card-text mb-3">
+                            <div class="meta">Research Scientist</div>
+                            <div class="meta">
+                                <img
+                                    src="https://img.shields.io/badge/Hackweek-Hackweek Organizer-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                    alt="Hackweek Organizer badge"/>
+                            </div>
+                        </div>
+                        <!--//card-text-->
+                        <a href="#steven--pestana-modal"
+                           data-bs-toggle="modal"
+                           data-bs-target="#steven--pestana-modal">
+                            Read more &rarr;
+                        </a>
+                    </div>
+                    <!--//card-->
+                    <div class="card-footer text-muted">
+                        <ul class="social-list list-inline mb-0">
+                            <li class="list-inline-item">
+                                <a href="https://github.com/spestana">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <!--//social-list-->
+                    </div>
+                </div>
+                <!--//card-->
+                <!-- Modal Speaker -->
+                <div class="modal modal-speaker modal-speaker-1"
+                     id="steven--pestana-modal" tabindex="-1" role="dialog"
+                     aria-labelledby="steven--pestana-ModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close"
+                                        data-bs-dismiss="modal"
+                                        aria-hidden="true">&times;
+                                </button>
+                                <h4 id="steven--pestana-ModalLabel"
+                                    class="modal-title sr-only">
+                                    Steven Pestana
+                                </h4>
+                            </div>
+                            <div class="modal-body p-0">
+                                <div class="theme-bg-light p-5">
+                                    <div class="row">
+                                        <div
+                                            class="col-12 col-md-auto text-center">
+                                            <img
+                                                class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+                                                src="https://avatars.githubusercontent.com/u/650301?v=4"
+                                                alt=""/>
+                                        </div>
+
+                                        <div
+                                            class="col text-center text-md-start mx-auto">
+                                            <h2 class="name mb-2">
+                                                Steven Pestana
+                                            </h2>
+                                            <div class="meta">
+                                                Research Scientist
+                                            </div>
+                                            <div class="meta mb-2">
+                                                University of Washington
+                                            </div>
+                                            <ul class="social-list list-inline mb-0">
+                                                <li class="list-inline-item">
+                                                    <a href="https://github.com/spestana">
+                                                        <i class="fab fa-github"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <!--//social-list-->
+                                        </div>
+                                        <!--//col-->
+                                    </div>
+                                    <!--//row-->
+                                </div>
+                                <div class="desc p-4 p-lg-5">
+                                    <div class="mb-2">
+                                        <img
+                                            src="https://img.shields.io/badge/Hackweek-Hackweek Organizer-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                            alt="Hackweek Organizer badge"
+                                        />
+                                    </div>
+                                    Steven Pestana is a research scientist and instructor in the Civil and Environmental Engineering department at UW. His research focuses on remote sensing and hydrology of snowy mountain watersheds.
+                                    <div class="mt-1">
+                                        <h5>Interests / Expertise</h5>
+                                        <ul>
+                                            <li>snow hydrology</li>
+                                            <li>remote sensing</li>
+                                            <li>python, xarray, git</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--//modal-body-->
+                        </div>
+                        <!--//modal-content-->
+                    </div>
+                    <!--//modal-dialog-->
+                </div>
+                <!--//modal-->
+            </div>
+            <!--//col-->
+            <div class="col-6 col-lg-3 mb-4">
+                <div class="card rounded-0">
+                    <a href="#morgan--sanger-modal" data-bs-toggle="modal"
+                       data-bs-target="#morgan--sanger-modal"><img
+                        src="https://avatars.githubusercontent.com/u/121844474?v=4"
+                        class="card-img-top rounded-0" alt=""></a>
+                    <div class="card-body">
+                        <h5 class="card-title mb-2">Morgan Sanger</h5>
+                        <div class="card-text mb-3">
+                            <div class="meta">PhD Student</div>
+                            <div class="meta">
+                                <img
+                                    src="https://img.shields.io/badge/Hackweek-Hackweek Helper-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                    alt="Hackweek Helper badge"/>
+                            </div>
+                        </div>
+                        <!--//card-text-->
+                        <a href="#morgan--sanger-modal"
+                           data-bs-toggle="modal"
+                           data-bs-target="#morgan--sanger-modal">
+                            Read more &rarr;
+                        </a>
+                    </div>
+                    <!--//card-->
+                    <div class="card-footer text-muted">
+                        <ul class="social-list list-inline mb-0">
+                            <li class="list-inline-item">
+                                <a href="https://github.com/sangermd">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <!--//social-list-->
+                    </div>
+                </div>
+                <!--//card-->
+                <!-- Modal Speaker -->
+                <div class="modal modal-speaker modal-speaker-1"
+                     id="morgan--sanger-modal" tabindex="-1" role="dialog"
+                     aria-labelledby="morgan--sanger-ModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close"
+                                        data-bs-dismiss="modal"
+                                        aria-hidden="true">&times;
+                                </button>
+                                <h4 id="morgan--sanger-ModalLabel"
+                                    class="modal-title sr-only">
+                                    Morgan Sanger
+                                </h4>
+                            </div>
+                            <div class="modal-body p-0">
+                                <div class="theme-bg-light p-5">
+                                    <div class="row">
+                                        <div
+                                            class="col-12 col-md-auto text-center">
+                                            <img
+                                                class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+                                                src="https://avatars.githubusercontent.com/u/121844474?v=4"
+                                                alt=""/>
+                                        </div>
+
+                                        <div
+                                            class="col text-center text-md-start mx-auto">
+                                            <h2 class="name mb-2">
+                                                Morgan Sanger
+                                            </h2>
+                                            <div class="meta">
+                                                PhD Student
+                                            </div>
+                                            <div class="meta mb-2">
+                                                University of Washington
+                                            </div>
+                                            <ul class="social-list list-inline mb-0">
+                                                <li class="list-inline-item">
+                                                    <a href="https://github.com/sangermd">
+                                                        <i class="fab fa-github"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <!--//social-list-->
+                                        </div>
+                                        <!--//col-->
+                                    </div>
+                                    <!--//row-->
+                                </div>
+                                <div class="desc p-4 p-lg-5">
+                                    <div class="mb-2">
+                                        <img
+                                            src="https://img.shields.io/badge/Hackweek-Hackweek Helper-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                            alt="Hackweek Helper badge"
+                                        />
+                                    </div>
+                                    Morgan Sanger is a PhD Student in the Civil and Environmental Engineering department at UW. Her research focuses on mechanics-informed machine learning for improved geohazard modeling and risk management.
+                                    <div class="mt-1">
+                                        <h5>Interests / Expertise</h5>
+                                        <ul>
+                                            <li>geotechnical engineering, geohazards</li>
+                                            <li>python</li>
+                                            <li>machine learning</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--//modal-body-->
+                        </div>
+                        <!--//modal-content-->
+                    </div>
+                    <!--//modal-dialog-->
+                </div>
+                <!--//modal-->
+            </div>
+            <!--//col-->
+            <div class="col-6 col-lg-3 mb-4">
+                <div class="card rounded-0">
+                    <a href="#ziheng--sun-modal" data-bs-toggle="modal"
+                       data-bs-target="#ziheng--sun-modal"><img
+                        src="https://geo-smart.github.io/assets/team/zs.jpeg"
+                        class="card-img-top rounded-0" alt=""></a>
+                    <div class="card-body">
+                        <h5 class="card-title mb-2">Ziheng Sun</h5>
+                        <div class="card-text mb-3">
+                            <div class="meta">Research Scientist</div>
+                            <div class="meta">
+                                <img
+                                    src="https://img.shields.io/badge/Hackweek-Tutorial Lead-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                    alt="Tutorial Lead badge"/>
+                            </div>
+                        </div>
+                        <!--//card-text-->
+                        <a href="#ziheng--sun-modal"
+                           data-bs-toggle="modal"
+                           data-bs-target="#ziheng--sun-modal">
+                            Read more &rarr;
+                        </a>
+                    </div>
+                    <!--//card-->
+                    <div class="card-footer text-muted">
+                        <ul class="social-list list-inline mb-0">
+                            <li class="list-inline-item">
+                                <a href="https://github.com/ZihengSun">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <!--//social-list-->
+                    </div>
+                </div>
+                <!--//card-->
+                <!-- Modal Speaker -->
+                <div class="modal modal-speaker modal-speaker-1"
+                     id="ziheng--sun-modal" tabindex="-1" role="dialog"
+                     aria-labelledby="ziheng--sun-ModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close"
+                                        data-bs-dismiss="modal"
+                                        aria-hidden="true">&times;
+                                </button>
+                                <h4 id="ziheng--sun-ModalLabel"
+                                    class="modal-title sr-only">
+                                    Ziheng Sun
+                                </h4>
+                            </div>
+                            <div class="modal-body p-0">
+                                <div class="theme-bg-light p-5">
+                                    <div class="row">
+                                        <div
+                                            class="col-12 col-md-auto text-center">
+                                            <img
+                                                class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+                                                src="https://geo-smart.github.io/assets/team/zs.jpeg"
+                                                alt=""/>
+                                        </div>
+
+                                        <div
+                                            class="col text-center text-md-start mx-auto">
+                                            <h2 class="name mb-2">
+                                                Ziheng Sun
+                                            </h2>
+                                            <div class="meta">
+                                                Research Scientist
+                                            </div>
+                                            <div class="meta mb-2">
+                                                George Mason University
+                                            </div>
+                                            <ul class="social-list list-inline mb-0">
+                                                <li class="list-inline-item">
+                                                    <a href="https://github.com/ZihengSun">
+                                                        <i class="fab fa-github"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <!--//social-list-->
+                                        </div>
+                                        <!--//col-->
+                                    </div>
+                                    <!--//row-->
+                                </div>
+                                <div class="desc p-4 p-lg-5">
+                                    <div class="mb-2">
+                                        <img
+                                            src="https://img.shields.io/badge/Hackweek-Tutorial Lead-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                            alt="Tutorial Lead badge"
+                                        />
+                                    </div>
+                                    Dr. Ziheng Sun is a research scientist at George Mason University. His research interests are harnessing cutting-edge technologies like artificial intelligence and high-performance computing, to answer vital questions in the realms of cryospheric and climate sciences.
+                                    <div class="mt-1">
+                                        <h5>Interests / Expertise</h5>
+                                        <ul>
+                                            <li>earth artificial intelligence</li>
+                                            <li>cryosphere & atmosphere</li>
+                                            <li>scientific workflow</li>
+                                            <li>high performance computing</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--//modal-body-->
+                        </div>
+                        <!--//modal-content-->
+                    </div>
+                    <!--//modal-dialog-->
+                </div>
+                <!--//modal-->
+            </div>
+            <!--//col-->
+            <div class="col-6 col-lg-3 mb-4">
+                <div class="card rounded-0">
+                    <a href="#tasha--snow-modal" data-bs-toggle="modal"
+                       data-bs-target="#tasha--snow-modal"><img
+                        src="https://avatars.githubusercontent.com/u/12904976?v=4"
+                        class="card-img-top rounded-0" alt=""></a>
+                    <div class="card-body">
+                        <h5 class="card-title mb-2">Tasha Snow</h5>
+                        <div class="card-text mb-3">
+                            <div class="meta">Postdoctoral Researcher</div>
+                            <div class="meta">
+                                <img
+                                    src="https://img.shields.io/badge/Hackweek-CryoCloud Lead-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                    alt="CryoCloud Lead badge"/>
+                                <img
+                                    src="https://img.shields.io/badge/Hackweek-Tutorial Lead-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                    alt="Tutorial Lead badge"/>
+                            </div>
+                        </div>
+                        <!--//card-text-->
+                        <a href="#tasha--snow-modal"
+                           data-bs-toggle="modal"
+                           data-bs-target="#tasha--snow-modal">
+                            Read more &rarr;
+                        </a>
+                    </div>
+                    <!--//card-->
+                    <div class="card-footer text-muted">
+                        <ul class="social-list list-inline mb-0">
+                            <li class="list-inline-item">
+                                <a href="https://github.com/tsnow03">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <!--//social-list-->
+                    </div>
+                </div>
+                <!--//card-->
+                <!-- Modal Speaker -->
+                <div class="modal modal-speaker modal-speaker-1"
+                     id="tasha--snow-modal" tabindex="-1" role="dialog"
+                     aria-labelledby="tasha--snow-ModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close"
+                                        data-bs-dismiss="modal"
+                                        aria-hidden="true">&times;
+                                </button>
+                                <h4 id="tasha--snow-ModalLabel"
+                                    class="modal-title sr-only">
+                                    Tasha Snow
+                                </h4>
+                            </div>
+                            <div class="modal-body p-0">
+                                <div class="theme-bg-light p-5">
+                                    <div class="row">
+                                        <div
+                                            class="col-12 col-md-auto text-center">
+                                            <img
+                                                class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+                                                src="https://avatars.githubusercontent.com/u/12904976?v=4"
+                                                alt=""/>
+                                        </div>
+
+                                        <div
+                                            class="col text-center text-md-start mx-auto">
+                                            <h2 class="name mb-2">
+                                                Tasha Snow
+                                            </h2>
+                                            <div class="meta">
+                                                Postdoctoral Researcher
+                                            </div>
+                                            <div class="meta mb-2">
+                                                Colorado School of Mines
+                                            </div>
+                                            <ul class="social-list list-inline mb-0">
+                                                <li class="list-inline-item">
+                                                    <a href="https://github.com/tsnow03">
+                                                        <i class="fab fa-github"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <!--//social-list-->
+                                        </div>
+                                        <!--//col-->
+                                    </div>
+                                    <!--//row-->
+                                </div>
+                                <div class="desc p-4 p-lg-5">
+                                    <div class="mb-2">
+                                        <img
+                                            src="https://img.shields.io/badge/Hackweek-CryoCloud Lead-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                            alt="CryoCloud Lead badge"
+                                        />
+                                        <img
+                                            src="https://img.shields.io/badge/Hackweek-Tutorial Lead-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                            alt="Tutorial Lead badge"
+                                        />
+                                    </div>
+                                    Tasha is a postdoc at the Colorado School of Mines working to develop new ways of detecting ocean heat transport and glacier-ocean interactions with remote sensing (especially thermal infrared). In her research, she also works on cloud-based, open-sourced workflows for advancing data integration and machine learning techniques.
+                                    <div class="mt-1">
+                                        <h5>Interests / Expertise</h5>
+                                        <ul>
+                                            <li>remote sensing</li>
+                                            <li>ice-ocean interaction</li>
+                                            <li>machine learning</li>
+                                            <li>open science</li>
+                                            <li>cloud-computing</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--//modal-body-->
+                        </div>
+                        <!--//modal-content-->
+                    </div>
+                    <!--//modal-dialog-->
+                </div>
+                <!--//modal-->
+            </div>
+            <!--//col-->
+            <div class="col-6 col-lg-3 mb-4">
+                <div class="card rounded-0">
+                    <a href="#ann--nykamp-modal" data-bs-toggle="modal"
+                       data-bs-target="#ann--nykamp-modal"><img
+                        src="http://escience.washington.edu/wp-content/uploads/2019/01/Ann-and-Dubs-2.jpg"
+                        class="card-img-top rounded-0" alt=""></a>
+                    <div class="card-body">
+                        <h5 class="card-title mb-2">Ann Nykamp</h5>
+                        <div class="card-text mb-3">
+                            <div class="meta">Grants Manager</div>
+                            <div class="meta">
+                                <img
+                                    src="https://img.shields.io/badge/Hackweek-Grants Manager-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                    alt="Grants Manager badge"/>
+                            </div>
+                        </div>
+                        <!--//card-text-->
+                        <a href="#ann--nykamp-modal"
+                           data-bs-toggle="modal"
+                           data-bs-target="#ann--nykamp-modal">
+                            Read more &rarr;
+                        </a>
+                    </div>
+                    <!--//card-->
+                    <div class="card-footer text-muted">
+                        <ul class="social-list list-inline mb-0">
+                            <li class="list-inline-item">
+                                <a href="None">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <!--//social-list-->
+                    </div>
+                </div>
+                <!--//card-->
+                <!-- Modal Speaker -->
+                <div class="modal modal-speaker modal-speaker-1"
+                     id="ann--nykamp-modal" tabindex="-1" role="dialog"
+                     aria-labelledby="ann--nykamp-ModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close"
+                                        data-bs-dismiss="modal"
+                                        aria-hidden="true">&times;
+                                </button>
+                                <h4 id="ann--nykamp-ModalLabel"
+                                    class="modal-title sr-only">
+                                    Ann Nykamp
+                                </h4>
+                            </div>
+                            <div class="modal-body p-0">
+                                <div class="theme-bg-light p-5">
+                                    <div class="row">
+                                        <div
+                                            class="col-12 col-md-auto text-center">
+                                            <img
+                                                class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+                                                src="http://escience.washington.edu/wp-content/uploads/2019/01/Ann-and-Dubs-2.jpg"
+                                                alt=""/>
+                                        </div>
+
+                                        <div
+                                            class="col text-center text-md-start mx-auto">
+                                            <h2 class="name mb-2">
+                                                Ann Nykamp
+                                            </h2>
+                                            <div class="meta">
+                                                Grants Manager
+                                            </div>
+                                            <div class="meta mb-2">
+                                                eScience Institute
+                                            </div>
+                                            <ul class="social-list list-inline mb-0">
+                                                <li class="list-inline-item">
+                                                    <a href="None">
+                                                        <i class="fab fa-github"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <!--//social-list-->
+                                        </div>
+                                        <!--//col-->
+                                    </div>
+                                    <!--//row-->
+                                </div>
+                                <div class="desc p-4 p-lg-5">
+                                    <div class="mb-2">
+                                        <img
+                                            src="https://img.shields.io/badge/Hackweek-Grants Manager-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                            alt="Grants Manager badge"
+                                        />
+                                    </div>
+                                    Ann is the eScience Institute's Grants Manager. Prior to joining eScience in 2018, Ann was a research coordinator and grant specialist for the University of Washington's Child Health Institute, the School of Dentistry, and the Institute for Health Metrics & Evaluation. Her skills include proposal development, financial reporting, fiscal oversight, and interpreting University and sponsor guidelines.
+                                    <div class="mt-1">
+                                        <h5>Interests / Expertise</h5>
+                                        <ul>
+                                            <li>hackweek organization and budgeting</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--//modal-body-->
+                        </div>
+                        <!--//modal-content-->
+                    </div>
+                    <!--//modal-dialog-->
+                </div>
+                <!--//modal-->
+            </div>
+            <!--//col-->
+            <div class="col-6 col-lg-3 mb-4">
+                <div class="card rounded-0">
+                    <a href="#ibrahim--olalekan--alabi-modal" data-bs-toggle="modal"
+                       data-bs-target="#ibrahim--olalekan--alabi-modal"><img
+                        src="https://avatars.githubusercontent.com/u/72909059?v=4"
+                        class="card-img-top rounded-0" alt=""></a>
+                    <div class="card-body">
+                        <h5 class="card-title mb-2">Ibrahim Olalekan Alabi</h5>
+                        <div class="card-text mb-3">
+                            <div class="meta">Graduate Student</div>
+                            <div class="meta">
+                                <img
+                                    src="https://img.shields.io/badge/Hackweek-Tutorial Lead-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                    alt="Tutorial Lead badge"/>
+                            </div>
+                        </div>
+                        <!--//card-text-->
+                        <a href="#ibrahim--olalekan--alabi-modal"
+                           data-bs-toggle="modal"
+                           data-bs-target="#ibrahim--olalekan--alabi-modal">
+                            Read more &rarr;
+                        </a>
+                    </div>
+                    <!--//card-->
+                    <div class="card-footer text-muted">
+                        <ul class="social-list list-inline mb-0">
+                            <li class="list-inline-item">
+                                <a href="https://github.com/Ibrahim-Ola">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <!--//social-list-->
+                    </div>
+                </div>
+                <!--//card-->
+                <!-- Modal Speaker -->
+                <div class="modal modal-speaker modal-speaker-1"
+                     id="ibrahim--olalekan--alabi-modal" tabindex="-1" role="dialog"
+                     aria-labelledby="ibrahim--olalekan--alabi-ModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close"
+                                        data-bs-dismiss="modal"
+                                        aria-hidden="true">&times;
+                                </button>
+                                <h4 id="ibrahim--olalekan--alabi-ModalLabel"
+                                    class="modal-title sr-only">
+                                    Ibrahim Olalekan Alabi
+                                </h4>
+                            </div>
+                            <div class="modal-body p-0">
+                                <div class="theme-bg-light p-5">
+                                    <div class="row">
+                                        <div
+                                            class="col-12 col-md-auto text-center">
+                                            <img
+                                                class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+                                                src="https://avatars.githubusercontent.com/u/72909059?v=4"
+                                                alt=""/>
+                                        </div>
+
+                                        <div
+                                            class="col text-center text-md-start mx-auto">
+                                            <h2 class="name mb-2">
+                                                Ibrahim Olalekan Alabi
+                                            </h2>
+                                            <div class="meta">
+                                                Graduate Student
+                                            </div>
+                                            <div class="meta mb-2">
+                                                Boise State University
+                                            </div>
+                                            <ul class="social-list list-inline mb-0">
+                                                <li class="list-inline-item">
+                                                    <a href="https://github.com/Ibrahim-Ola">
+                                                        <i class="fab fa-github"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <!--//social-list-->
+                                        </div>
+                                        <!--//col-->
+                                    </div>
+                                    <!--//row-->
+                                </div>
+                                <div class="desc p-4 p-lg-5">
+                                    <div class="mb-2">
+                                        <img
+                                            src="https://img.shields.io/badge/Hackweek-Tutorial Lead-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                            alt="Tutorial Lead badge"
+                                        />
+                                    </div>
+                                    Ibrahim Alabi is a second-year PhD student in the Computing PhD program (Data Science Emphasis) at Boise State University. His doctoral research revolves around the use of Machine Learning to improve snow products. Specifically, his research is focused on using Machine Learning approaches to predict the amount of water stored in the seasonal snowpack.
+                                    <div class="mt-1">
+                                        <h5>Interests / Expertise</h5>
+                                        <ul>
+                                            <li>Machine Learning</li>
+                                            <li>Python</li>
+                                            <li>snow science</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--//modal-body-->
+                        </div>
+                        <!--//modal-content-->
+                    </div>
+                    <!--//modal-dialog-->
+                </div>
+                <!--//modal-->
+            </div>
+            <!--//col-->
+            <div class="col-6 col-lg-3 mb-4">
+                <div class="card rounded-0">
+                    <a href="#ryan--johnson-modal" data-bs-toggle="modal"
+                       data-bs-target="#ryan--johnson-modal"><img
+                        src="https://awi.ua.edu/wp-content/uploads/2022/12/Ryan-Johnson-Photo-Cropped-768x768.jpg"
+                        class="card-img-top rounded-0" alt=""></a>
+                    <div class="card-body">
+                        <h5 class="card-title mb-2">Ryan Johnson</h5>
+                        <div class="card-text mb-3">
+                            <div class="meta">AI/ML Research Scientist</div>
+                            <div class="meta">
+                                <img
+                                    src="https://img.shields.io/badge/Hackweek-Tutorial Lead-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                    alt="Tutorial Lead badge"/>
+                            </div>
+                        </div>
+                        <!--//card-text-->
+                        <a href="#ryan--johnson-modal"
+                           data-bs-toggle="modal"
+                           data-bs-target="#ryan--johnson-modal">
+                            Read more &rarr;
+                        </a>
+                    </div>
+                    <!--//card-->
+                    <div class="card-footer text-muted">
+                        <ul class="social-list list-inline mb-0">
+                            <li class="list-inline-item">
+                                <a href="https://github.com/whitelightning450">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <!--//social-list-->
+                    </div>
+                </div>
+                <!--//card-->
+                <!-- Modal Speaker -->
+                <div class="modal modal-speaker modal-speaker-1"
+                     id="ryan--johnson-modal" tabindex="-1" role="dialog"
+                     aria-labelledby="ryan--johnson-ModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close"
+                                        data-bs-dismiss="modal"
+                                        aria-hidden="true">&times;
+                                </button>
+                                <h4 id="ryan--johnson-ModalLabel"
+                                    class="modal-title sr-only">
+                                    Ryan Johnson
+                                </h4>
+                            </div>
+                            <div class="modal-body p-0">
+                                <div class="theme-bg-light p-5">
+                                    <div class="row">
+                                        <div
+                                            class="col-12 col-md-auto text-center">
+                                            <img
+                                                class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+                                                src="https://awi.ua.edu/wp-content/uploads/2022/12/Ryan-Johnson-Photo-Cropped-768x768.jpg"
+                                                alt=""/>
+                                        </div>
+
+                                        <div
+                                            class="col text-center text-md-start mx-auto">
+                                            <h2 class="name mb-2">
+                                                Ryan Johnson
+                                            </h2>
+                                            <div class="meta">
+                                                AI/ML Research Scientist
+                                            </div>
+                                            <div class="meta mb-2">
+                                                University of Alabama
+                                            </div>
+                                            <ul class="social-list list-inline mb-0">
+                                                <li class="list-inline-item">
+                                                    <a href="https://github.com/whitelightning450">
+                                                        <i class="fab fa-github"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <!--//social-list-->
+                                        </div>
+                                        <!--//col-->
+                                    </div>
+                                    <!--//row-->
+                                </div>
+                                <div class="desc p-4 p-lg-5">
+                                    <div class="mb-2">
+                                        <img
+                                            src="https://img.shields.io/badge/Hackweek-Tutorial Lead-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                            alt="Tutorial Lead badge"
+                                        />
+                                    </div>
+                                    Ryan Johnson is a Civil and Environmental Engineering doctoral graduate from the University of Utah, focusing his work on water system operations. He expands on this research at the Alabama Water Institute, seeking to characterize nonstationary affecting water supply and demand to enhance the management of water resources. This builds on the understanding of snow & streamflow monitoring and prediction, and coupling with urban water systems operations. Advancing this water resources research leverages state-of-the-art hydroinformatic sensor networks and remote sensing to characterize water use and availability, and integrate both physical and machine learning tools to advance complex modeling tasks.
+                                    <div class="mt-1">
+                                        <h5>Interests / Expertise</h5>
+                                        <ul>
+                                            <li>Machine Learning</li>
+                                            <li>Python</li>
+                                            <li>snow science</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--//modal-body-->
+                        </div>
+                        <!--//modal-content-->
+                    </div>
+                    <!--//modal-dialog-->
+                </div>
+                <!--//modal-->
+            </div>
+            <!--//col-->
+            <div class="col-6 col-lg-3 mb-4">
+                <div class="card rounded-0">
+                    <a href="#valentina--staneva-modal" data-bs-toggle="modal"
+                       data-bs-target="#valentina--staneva-modal"><img
+                        src="https://escience.washington.edu/wp-content/uploads/2022/09/Valentina-Staneva.jpg"
+                        class="card-img-top rounded-0" alt=""></a>
+                    <div class="card-body">
+                        <h5 class="card-title mb-2">Valentina Staneva</h5>
+                        <div class="card-text mb-3">
+                            <div class="meta">Data Scientist</div>
+                            <div class="meta">
+                                <img
+                                    src="https://img.shields.io/badge/Hackweek-Tutorial Lead-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                    alt="Tutorial Lead badge"/>
+                                <img
+                                    src="https://img.shields.io/badge/Hackweek-Hackweek Helper-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                    alt="Hackweek Helper badge"/>
+                            </div>
+                        </div>
+                        <!--//card-text-->
+                        <a href="#valentina--staneva-modal"
+                           data-bs-toggle="modal"
+                           data-bs-target="#valentina--staneva-modal">
+                            Read more &rarr;
+                        </a>
+                    </div>
+                    <!--//card-->
+                    <div class="card-footer text-muted">
+                        <ul class="social-list list-inline mb-0">
+                            <li class="list-inline-item">
+                                <a href="https://github.com/valentina-s">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <!--//social-list-->
+                    </div>
+                </div>
+                <!--//card-->
+                <!-- Modal Speaker -->
+                <div class="modal modal-speaker modal-speaker-1"
+                     id="valentina--staneva-modal" tabindex="-1" role="dialog"
+                     aria-labelledby="valentina--staneva-ModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close"
+                                        data-bs-dismiss="modal"
+                                        aria-hidden="true">&times;
+                                </button>
+                                <h4 id="valentina--staneva-ModalLabel"
+                                    class="modal-title sr-only">
+                                    Valentina Staneva
+                                </h4>
+                            </div>
+                            <div class="modal-body p-0">
+                                <div class="theme-bg-light p-5">
+                                    <div class="row">
+                                        <div
+                                            class="col-12 col-md-auto text-center">
+                                            <img
+                                                class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+                                                src="https://escience.washington.edu/wp-content/uploads/2022/09/Valentina-Staneva.jpg"
+                                                alt=""/>
+                                        </div>
+
+                                        <div
+                                            class="col text-center text-md-start mx-auto">
+                                            <h2 class="name mb-2">
+                                                Valentina Staneva
+                                            </h2>
+                                            <div class="meta">
+                                                Data Scientist
+                                            </div>
+                                            <div class="meta mb-2">
+                                                University of Washington
+                                            </div>
+                                            <ul class="social-list list-inline mb-0">
+                                                <li class="list-inline-item">
+                                                    <a href="https://github.com/valentina-s">
+                                                        <i class="fab fa-github"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <!--//social-list-->
+                                        </div>
+                                        <!--//col-->
+                                    </div>
+                                    <!--//row-->
+                                </div>
+                                <div class="desc p-4 p-lg-5">
+                                    <div class="mb-2">
+                                        <img
+                                            src="https://img.shields.io/badge/Hackweek-Tutorial Lead-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                            alt="Tutorial Lead badge"
+                                        />
+                                        <img
+                                            src="https://img.shields.io/badge/Hackweek-Hackweek Helper-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
+                                            alt="Hackweek Helper badge"
+                                        />
+                                    </div>
+                                    Valentina Staneva is a data scientist at the eScience Institute at the University of Washington. Her background is in math and image processing, and she collaborates with scientists on leveraging ML/AI techniques in their research. She likes teaching researchers how to get started with programming and improve their data analysis workflows.
+                                    <div class="mt-1">
+                                        <h5>Interests / Expertise</h5>
+                                        <ul>
+                                            <li>Machine Learning</li>
+                                            <li>Image Processing</li>
+                                            <li>Python, git/GitHub</li>
+                                            <li>Reproducible Data Workflows</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--//modal-body-->
+                        </div>
+                        <!--//modal-content-->
+                    </div>
+                    <!--//modal-dialog-->
+                </div>
+                <!--//modal-->
+            </div>
+            <!--//col-->
+        </div>
+        <!--//row-->
+    </div>
+    <!--//container-->
+</section>
+<!--//team-->
+
+<div class="container">
+    <hr>
+</div>
+
+<!--//about-section-->
+<section id="about-section" class="about-section section">
+    <div class="container">
+        <h3 class="section-heading text-center mb-3">
+            About GeoSmart Hackweek
+        </h3>
+        <div class="section-intro single-col-max mx-auto mb-4">
+            <a href="https://escience.washington.edu/using-data-science/hackweeks/">Hackweeks</a> are participant-driven events that strive to create welcoming spaces for participants to learn new things, build community and gain hands-on experience with collaboration and team science. </br></br> The 2024 GeoSmart Hackweek will focus primarily on project work, with an emphasis on applications in Hydrology and Cryosphere science. Project ideas will be shared in advance. There will be space for new ideas to emerge during the Hackweek based on participant engagement. We will provide about 5 hours of data science tutorials spread over the week, including space for participant-led tutorials. </br></br> During the week, participants will have the opportunity to collaborate with their peers, share ideas, and work on projects leading to exciting results and discoveries. This event is open to all experience levels in machine learning knowledge, so whether you're a seasoned pro or just starting out, you're welcome to join. However, to benefit most from the event, prior knowledge of Python programming and data handling using common Python packages (pandas, xarray, etc.) is desired. See the event Jupyter book for more details. </br></br> Preliminary project ideas include streamflow prediction from SAR-derived snowmelt timing or snow data, predicting snow water equivalent with machine learning, glacier dh/dt from DEMs using geospatial time series analysis, derivation of snow covered areas from satellite imagery, derivation of snow depth from SAR backscatter and lidar-derived snow data, predicting river discharge from seismic waves and others! Join one of these projects or pitch your own project idea at the event!
+        </div>
+            <div class="section-intro single-col-max mx-auto mb-4">
+                <div class="accordion" id="expandDescription">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseList"
+                                    aria-expanded="true"
+                                    aria-controls="collapseList">
+                                Hackweek activities will include:
+                            </button>
+                        </h2>
+                        <div id="collapseList"
+                             class="accordion-collapse collapse show"
+                             aria-labelledby="headingOne"
+                             data-bs-parent="#headingOne">
+                            <div class="accordion-body">
+                                    <ul>
+                                        <i><strong>
+                                            Brainstorming sessions
+                                        </strong></i>: participants can join an existing project or come up with ideas for projects that can be implemented using machine learning.
+                                    </ul>
+                                    <ul>
+                                        <i><strong>
+                                            Tutorials
+                                        </strong></i>: learn about common machine learning workflows, computational environments, reproducibility, and workflow management.
+                                    </ul>
+                                    <ul>
+                                        <i><strong>
+                                            Data preparation
+                                        </strong></i>: explore datasets to identify and engineer relevant variables that can be used to build machine learning models.
+                                    </ul>
+                                    <ul>
+                                        <i><strong>
+                                            Models
+                                        </strong></i>: work on building machine learning models using popular libraries such as TensorFlow, PyTorch, or scikit-learn.
+                                    </ul>
+                                    <ul>
+                                        <i><strong>
+                                            Model validation and optimization
+                                        </strong></i>: validate models using cross-validation and other techniques to ensure that models are robust and accurate; fine-tuning hyperparameters, using feature engineering techniques, or other methods.
+                                    </ul>
+                                    <ul>
+                                        <i><strong>
+                                            Presentations
+                                        </strong></i>: participants can share the results from projects to receive feedback from their peers.
+                                    </ul>
+                                    <ul>
+                                        <i><strong>
+                                            Networking
+                                        </strong></i>: facilitated opportunities for networking and community building will be provided.
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</section>
+
+<!--//sponsors-section-->
+<section id="sponsors-section" class="sponsors-section section theme-bg-light">
+    <div class="container">
+        <h3 class="section-heading text-center mb-3">Our Sponsors</h3>
+        <div class="section-intro text-center single-col-max mx-auto mb-5">
+            This event was made possible by the National Science Foundation (Awards #1829585, #2117834) and the eScience Institute in collaboration with CUAHSI and ESIP. Cloud computing infrastructure provided by CryoCloud.
+        </div>
+        <div class="row logos justify-content-center">
+            <div class="logo-item col-6 col-md-4 col-lg-2">
+                <a href="https://escience.washington.edu/" target="_blank"><img
+                    src="https://escience.washington.edu/wp-content/uploads/2015/10/Logo_eScience-stacked.png"
+                    alt="eScience Institute"></a>
+            </div>
+            <div class="logo-item col-6 col-md-4 col-lg-2">
+                <a href="https://www.nsf.gov/" target="_blank"><img
+                    src="https://new.nsf.gov/themes/custom/nsf_theme/components/images/logo/logo-desktop.svg"
+                    alt="National Science Foundation"></a>
+            </div>
+            <div class="logo-item col-6 col-md-4 col-lg-2">
+                <a href="https://www.cuahsi.org/" target="_blank"><img
+                    src="https://www.cuahsi.org/uploads/pages/img/Round_Logo_No_Text_-_Transparent.png"
+                    alt="CUAHSI"></a>
+            </div>
+            <div class="logo-item col-6 col-md-4 col-lg-2">
+                <a href="https://www.esipfed.org/" target="_blank"><img
+                    src="https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/esip-logo_0.png"
+                    alt="ESIP"></a>
+            </div>
+            <div class="logo-item col-6 col-md-4 col-lg-2">
+                <a href="https://cryointhecloud.com/" target="_blank"><img
+                    src="https://book.cryointhecloud.com/_static/logo.png"
+                    alt="CryoCloud"></a>
+            </div>
+        </div>
+        <!--//row-->
+    </div>
+    <!--//container-->
+</section>
+
+<footer class="footer py-5 theme-bg-primary">
+    <div class="container text-center">
+        <ul class="social-list list-inline mb-4">
+            <li class="list-inline-item me-3">
+                <a href="https://github.com/geo-smart/">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+        <!--//social-list-->
+
+        <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+        <small class="copyright">©
+            <script type="text/javascript">
+                document.write(new Date().getFullYear().toString());
+            </script>
+            GeoSmart Hackweek
+        </small>
+        <br>
+        <small class="copyright">
+            Designed with <i class="fas fa-heart" style="color: #EC645E;"></i>
+            by
+            <a href="http://themes.3rdwavemedia.com" target="_blank">
+                Xiaoying Riley
+            </a> for developers
+        </small>
+    </div>
+</footer>
+
+<!-- Javascript -->
+<script src="assets/plugins/popper.min.js"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/plugins/smoothscroll.min.js"></script>
+<script src="assets/plugins/gumshoe/gumshoe.polyfills.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
